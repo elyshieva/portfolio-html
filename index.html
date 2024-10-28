@@ -19,18 +19,74 @@ https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img#attr-height -->
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Elyshieva's portfolio</title>
+    <title>Responsive Sections</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        .custom-section {
+            margin: 20px 0;
+        }
+        .custom-image {
+            max-width: 100%;
+            height: auto;
+        }
+    </style>
 </head>
 <body>
-    <h1>Elyshieva's Portfolio</h1>
-    <h2>I'm a Web Developer</h2>
-    <hr />
-    <h3><a href="./public/movie-ranking.html">Movie Ranking Project</a></h3>
-    <img src="./assets/images/movie-ranking.png" height="200" alt="movie ranking project preview"/>
-    <h3><a href="./public/birthday-invite.html">Birthday Invite Project</a></h3>
-    <img src="./assets/images/birthday-invite.png" height="200" alt="birthday invite project preview"/>
-    <hr />
-    <a href="./public/about.html">About Me</a>
-    <a href="./public/contact.html">Contact Me</a>
+
+<div class="container">
+    <!-- Section 1 -->
+    <div class="row align-items-center custom-section">
+        <div class="col-md-6">
+            <img src="dog.jpg" alt="Description of the image" class="custom-image">
+        </div>
+        <div class="col-md-6">
+            <h2>VR tour</h2>
+            <p>Your descriptive text goes here for section 1.</p>
+            <a href="your-link-url1" class="btn btn-primary">Learn More</a>
+        </div>
+    </div>
+    <hr>
+
+    <!-- Section 2 -->
+    <div class="row align-items-center custom-section">
+        <div class="col-md-6">
+            <img src="dog.jpg" alt="Description of the image" class="custom-image">
+        </div>
+        <div class="col-md-6">
+            <h2>3D modelling</h2>
+            <p>Your descriptive text goes here for section 2.</p>
+            <a href="your-link-url2" class="btn btn-primary">Learn More</a>
+        </div>
+    </div>
+    <hr>
+    <!-- Section 3 -->
+    <div class="row align-items-center custom-section">
+        <div class="col-md-6">
+            <img src="dog.jpg" alt="Description of the image" class="custom-image">
+        </div>
+        <div class="col-md-6">
+            <h2>Procedural generation and academic publications</h2>
+            <p>Your descriptive text goes here for section 3.</p>
+            <a href="your-link-url3" class="btn btn-primary">Learn More</a>
+        </div>
+    </div>
+    <hr>
+    <!-- Section 4 -->
+    <div class="row align-items-center custom-section">
+        <div class="col-md-6">
+            <img src="dog.jpg" alt="Description of the image" class="custom-image">
+        </div>
+        <div class="col-md-6">
+            <h2>Little 3d web project for fun</h2>
+            <p>Your descriptive text goes here for section 4.</p>
+            <a href="your-link-url4" class="btn btn-primary">Learn More</a>
+        </div>
+    </div>
+</div>
+<hr>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 </html>
